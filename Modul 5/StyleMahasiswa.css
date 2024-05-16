@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /*kode warna putih*/
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #000080; /*kode warna biru*/
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #000080; /*kode warna biru*/
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /*kode warna putih*/
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #000080; /*kode warna biru*/
+    color: #fff; /*kode warna putih*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px; /* Tambahkan margin-right untuk menyamakan posisi dengan tombol submit */
+}
+
+form button[type="submit"]:hover {
+    background-color: #000080; /*kode warna biru*/
+}
+
+a {
+    text-decoration: none;
+    color: #000080; /* Ubah warna teks menjadi biru */
+    padding: 10px 20px;
+    border: 1px solid #000080; /* Gunakan warna border yang sama dengan tombol submit *//*kode warna biru*/
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+a:hover {
+    background-color: #000080; /* Ubah warna background saat hover menjadi biru */
+    color: #fff; /* Ubah warna teks menjadi putih saat hover *//*kode warna putih*/
+}
